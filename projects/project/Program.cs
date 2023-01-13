@@ -1,4 +1,5 @@
-﻿string[] FindLessThan(string[] input, int n) {
+﻿string[] FindLessThan(string[] input, int n) 
+{
     string[] output = new string[CountLessThan(input, n)];
 
     for(int i = 0, j = 0; i < input.Length; i++) {
@@ -11,7 +12,8 @@
     return output;
 }
 
-int CountLessThan(string[] input, int n) {
+int CountLessThan(string[] input, int n) 
+{
     int count = 0;
 
     for(int i = 0; i < input.Length; i++) {
